@@ -1,2 +1,2 @@
-FROM payara/server-full:latest
+FROM payara/server-full:5.191
 COPY target/webinarjsf.war $DEPLOY_DIR
